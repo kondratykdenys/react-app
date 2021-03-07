@@ -47,8 +47,6 @@ const ReposCellsContainer: FunctionComponent<ReposCellsContainerProps> = ({ repo
   if (loading) return <TableCell>Loading..</TableCell>;
   if (error) return <TableCell>Error! {error}</TableCell>;
 
-  console.log(data);
-
   const {
     name,
     stargazerCount: stars,
